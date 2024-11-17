@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Formulario.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1 id="title">De estas carreras cual te llama la atencion</h1>
+        
+        <form id="survey-form">
+    <fieldset>
+        <div class="inicio">
+            <label for="" id="name-label">Nombre <input type="text" required id="name" /></label>
+            <label for="">Apellidos <input type="text" required name="placeholder "  /></label>
+            <label for="" id="number-label">Edad <input type="number" min="13" max="120" required name="juan" id="number"></label>
+            <label for="" id="email-label">Gmail <input type="email" required name="juan" id="email"   /></label>
+             <label for="">Contraseña <input type="password" required name="juan" pattern="[a-z0-5]{8,}  " /></label> 
+            </div>
+    
+             <fieldset>
+                <legend>Genero</legend>
+                <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked />Mujer</label>
+                <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" />Hombre</label>
+              </fieldset>
+        
+       </fieldset>
+    
+        <fieldset>
+            <legend>CARRES DEL FUTURO</legend>
+            <label for="personal-account"><input id="personal-account" type="radio" name="juan" checked class="inline" value="1"/> Estadisticas</label>
+            <label for="business-account"><input id="business-account" type="radio" name="juan"  class="inline"value="1"/> Medicina</label>
+    
+            <label for="personal-account"><input id="personal-account" type="radio" name="juan" checked class="inline"value="1"/> Marketing</label>
+    
+            <label for="business-account"><input id="business-account" type="radio" name="juan" class="inline"value="1"/> Ingeneria Civil</label>
+    
+            <label for="personal-account"><input id="personal-account" type="radio" name="juan" checked class="inline"value="1"/> Derecho</label>
+    
+            <label for="business-account"><input id="business-account" type="radio" name="juan" class="inline"value="1"/> Ciencias de datos</label>
+    
+            <label for="personal-account"><input id="personal-account" type="radio" name="juan" checked class="inline"value="1"/> Ingeneria en sistemas</label>
+    
+            <label for="business-account"><input id="business-account" type="radio" name="juan" class="inline"value="1"/> Ingeneria de minas</label>
+          
+          </fieldset>
+    
+          <fieldset>
+              <legend>Como te enteraste de nos nosotros?</legend>
+              <select id="dropdown">
+              <option vuele="">(select one)</option>
+              <option vuele="1">Por un familiar</option>
+              <option value="2">Por mensaje </option>
+              <option value="3">Por medio de redes</option>
+              </select>
+               </fieldset>
+               <fieldset>
+                   <legend>Por que te interesa esta carrera</legend>
+                   <select id="dropdown">
+                       <option value="">(select one)</option>
+                       <option value="1">Por la demanda</option>
+                       <option value="2">Dinero</option>
+                       <option value="3">Te parece interesante</option>
+                       <option value="4">otro</option>
+                   </select>
+               </fieldset>
+               <fieldset>
+                   <p id="description">Cuales crees que son los motivos por los cuales la carrera que elegiste se considera del futuro?</p>
+                   <label type="submit"><inputid="submit" name="juan" /></label>
+                 
+    
+               </fieldset>
+               <fieldset>
+                     <label for="biografia">Propociona una biografia:
+                      <textarea id="biografia" rows="3" cols="30">    </textarea>
+                   </label>
+               </fieldset>
+               <div class="boton">
+                <button type="submit" id="enviar" >Enviar</button>
+            </div>
+            </form>
+           
+        <div class="mensaje" id="mensaje1"></div>
+    </div>
+</body>
+</html>
